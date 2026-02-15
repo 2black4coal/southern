@@ -1,0 +1,148 @@
+/* -----------------------------------------
+   PAGE WRAPPER — fully responsive
+----------------------------------------- */
+.intake-page {
+  padding: clamp(100px, 12vw, 160px) clamp(20px, 6vw, 40px) clamp(40px, 8vw, 80px);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* -----------------------------------------
+   BACK BUTTON — responsive
+----------------------------------------- */
+.intake-back {
+  position: fixed;
+  top: clamp(12px, 3vw, 22px);
+  left: clamp(12px, 3vw, 28px);
+  font-size: clamp(0.6rem, 1.2vw, 0.85rem);
+  padding: clamp(4px, 0.8vw, 8px) clamp(8px, 1.4vw, 14px);
+  color: white;
+  text-decoration: none;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  transition: all 0.25s ease;
+  z-index: 9999;
+}
+
+.intake-back:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.45);
+  transform: translateY(-2px);
+}
+
+/* -----------------------------------------
+   HEADER — fully responsive
+----------------------------------------- */
+.intake-header {
+  display: flex;
+  gap: clamp(20px, 4vw, 40px);
+  margin-bottom: clamp(40px, 6vw, 60px);
+  align-items: center;
+}
+
+.intake-hero {
+  width: clamp(100%, 45%, 45%);
+  height: clamp(200px, 28vw, 320px);
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.intake-header-text h1 {
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  margin-bottom: 12px;
+}
+
+.intake-header-text p {
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+/* -----------------------------------------
+   FORM — responsive
+----------------------------------------- */
+.intake-form {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(18px, 3vw, 26px);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* -----------------------------------------
+   INPUTS — responsive
+----------------------------------------- */
+.intake-form input,
+.intake-form textarea {
+  padding: clamp(12px, 2vw, 16px);
+  border-radius: 14px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.35);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: white;
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  outline: none;
+  width: 100%;
+  display: block;
+}
+
+.intake-form input:focus,
+.intake-form textarea:focus {
+  border-color: rgba(255,255,255,0.65);
+}
+
+/* LABELS */
+.intake-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(0.75rem, 1.2vw, 0.9rem);
+  opacity: 0.9;
+}
+
+/* -----------------------------------------
+   SUBMIT BUTTON — responsive
+----------------------------------------- */
+.intake-submit {
+  padding: clamp(12px, 2vw, 16px);
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  color: white;
+  font-size: clamp(0.9rem, 1.6vw, 1.1rem);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intake-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(59,130,246,0.6);
+}
+
+/* -----------------------------------------
+   RESPONSIVE BREAKPOINTS
+----------------------------------------- */
+@media (max-width: 900px) {
+  .intake-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intake-hero {
+    width: 100%;
+    height: clamp(200px, 40vw, 260px);
+  }
+}
+
+@media (max-width: 600px) {
+  .intake-page {
+    padding: clamp(80px, 18vw, 120px) 20px 40px;
+  }
+}

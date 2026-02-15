@@ -1,0 +1,93 @@
+/* -----------------------------------------
+   PAGE WRAPPER — mature, no block/card
+----------------------------------------- */
+.confirmation-page {
+  min-height: 100vh;
+  padding: clamp(100px, 12vw, 160px) clamp(20px, 6vw, 40px);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* -----------------------------------------
+   BACK LINK — same language as intake/services
+----------------------------------------- */
+.confirmation-back {
+  position: fixed;
+  top: clamp(12px, 3vw, 22px);
+  left: clamp(12px, 3vw, 28px);
+  font-size: clamp(0.6rem, 1.2vw, 0.85rem);
+  padding: clamp(4px, 0.8vw, 8px) clamp(8px, 1.4vw, 14px);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  z-index: 9999;
+}
+
+.confirmation-back:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.45);
+  transform: translateY(-2px);
+}
+
+/* -----------------------------------------
+   MAIN CONTENT — direct, mature
+----------------------------------------- */
+.confirmation-main {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.confirmation-main h1 {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin-bottom: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.confirmation-main p {
+  font-size: clamp(0.9rem, 1.4vw, 1rem);
+  opacity: 0.85;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* -----------------------------------------
+   LINKS — mature, inline, no big buttons
+----------------------------------------- */
+.confirmation-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: clamp(0.85rem, 1.3vw, 0.95rem);
+}
+
+.confirmation-links a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.confirmation-links a:hover {
+  border-color: rgba(255,255,255,0.6);
+  color: #ffffff;
+}
+
+/* -----------------------------------------
+   RESPONSIVE
+----------------------------------------- */
+@media (max-width: 600px) {
+  .confirmation-main {
+    text-align: left;
+  }
+
+  .confirmation-links {
+    flex-direction: column;
+  }
+}
