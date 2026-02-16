@@ -89,24 +89,16 @@ export default function Intake() {
       </div>
 
       {/* FORM */}
-      <form
-        className="intake-form"
-        method="POST"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        name="service-intake"
-        onSubmit={() => navigate("/confirmation")}
-      >
-        {/* Netlify form name */}
-        <input type="hidden" name="form-name" value="service-intake" />
-
-        {/* Honeypot */}
-        <p style={{ display: "none" }}>
-          <label>
-            Don’t fill this out if you’re human:
-            <input name="bot-field" />
-          </label>
-        </p>
+     <form className="intake-form" 
+     method="POST"
+      data-netlify="true" 
+      data-netlify-honeypot="bot-field"
+       name="service-intake" 
+       action="/confirmation" > 
+       <input type="hidden" 
+       name="form-name" 
+       value="service-intake" /> 
+       <p style={{ display: "none" }}> <label> Don’t fill this out if you’re human: <input name="bot-field" /> </label> </p>
 
         {/* Service info */}
         <input type="hidden" name="serviceId" value={serviceId} />
