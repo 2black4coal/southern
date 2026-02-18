@@ -41,14 +41,25 @@ export default function Services() {
       priceType: "fixed",
       price: 249
     },
-   {
-  id: "tesla-charger-installation",
-  name: "Tesla Home Charger Installation",
-  description: "Professional installation of Tesla Wall Connectors for fast, safe home charging.",
-  image: "/images/tesla-charger.jpg",
+ {
+  id: "ev-charger-installation",
+  name: "EV Home Charger Installation",
+  description: "Professional installation of Level 2 EV chargers for fast, safe home charging.",
+  image: "/images/ev-charger.jpg",
   priceType: "starting",
   price: 399
 },
+ 
+{
+  id: "digital-device-mounting",
+  name: "Digital Device Mounting & Setup",
+  description: "Professional mounting and setup for TVs, computers, and home electronics.",
+  image: "/images/device-mounting.service.jpg",
+  priceType: "starting",
+  price: 129
+},
+
+
 
    {
   id: "cable-routing",
@@ -65,6 +76,14 @@ export default function Services() {
   image: "/images/fiber-splicing.png",
   priceType: "starting",
   price: 249
+},
+{
+  id: "faux-wood-wall-panel",
+  name: "Faux Wood Wall Panel Installation",
+  description: "Elegant slat wall installation for modern offices, studios, and commercial interiors.",
+  image: "/images/faux.png",
+  priceType: "starting",
+  price: 299
 },
 
 {

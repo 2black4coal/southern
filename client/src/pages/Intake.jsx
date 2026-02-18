@@ -34,11 +34,20 @@ export default function Intake() {
       image: "/images/rv.png"
     },
 
-    "tesla-charger-installation": {
-      title: "Professional Tesla Battery Charger Installation",
-      desc: "Our Professional Tesla Battery Charger Installation service delivers a clean, safe, and high‑performance charging setup for your home. We install Tesla Wall Connectors and compatible EV chargers using certified wiring practices, proper breaker sizing, and code‑compliant conduit routing to ensure fast, reliable charging for your Tesla vehicle.\n\nWhether your electrical panel is located in the garage, outside, or across the home, our technicians handle full cable routing through walls, attics, or crawl spaces. Every installation includes load assessment, grounding verification, and a clean, flush‑mounted finish that blends seamlessly with your home.\n\nThis service is ideal for homeowners who want faster charging speeds, safer electrical performance, and a professionally installed system that meets Tesla’s recommended standards. Built for long‑term reliability, future EV expansion, and seamless daily charging convenience.",
-      image: "/images/tesla-charger.jpg"
-    },
+"ev-charger-installation": {
+  title: "Professional EV Home Charger Installation",
+  desc: "Our Professional EV Home Charger Installation service delivers a clean, safe, and high‑performance charging setup for your electric vehicle. We install Level 2 home chargers and compatible EV charging systems using certified wiring practices, proper breaker sizing, and code‑compliant conduit routing to ensure fast, reliable charging for any EV model.\n\nWhether your electrical panel is located in the garage, outside, or across the home, our technicians handle full cable routing through walls, attics, or crawl spaces. Every installation includes load assessment, grounding verification, and a clean, flush‑mounted finish that blends seamlessly with your home.\n\nThis service is ideal for homeowners who want faster charging speeds, safer electrical performance, and a professionally installed system that meets national electrical standards. Built for long‑term reliability, future EV expansion, and seamless daily charging convenience.",
+  image: "/images/ev-charger.jpg"
+},
+
+
+
+
+    "digital-device-mounting": {
+  title: "Digital Device Mounting & Smart Setup",
+  desc: "Our Digital Device Mounting & Smart Setup service delivers a clean, secure, and modern installation for your home electronics. We professionally mount TVs, monitors, computers, soundbars, gaming systems, and smart home devices with precision alignment, reinforced hardware, and cable‑management solutions that keep your space organized and visually seamless.\n\nWhether you're upgrading your living room, setting up a home office, or creating a full entertainment environment, our technicians handle every detail — from bracket installation and stud‑level reinforcement to power routing, device pairing, and smart configuration. We ensure your devices are mounted safely, calibrated correctly, and integrated smoothly with your existing home network.\n\nThis service is ideal for homeowners who want a clean, modern, and clutter‑free setup without exposed wires or unstable mounts. Built for long‑term durability, digital convenience, and a polished finish that elevates your entire space.",
+  image: "/images/device-mounting.jpg"
+},
 
     "cable-routing": {
       title: "Professional Cable Routing Service",
@@ -51,6 +60,11 @@ export default function Intake() {
       desc: "Our Fiber Fusion Splicing & Installation service delivers professional‑grade fiber routing, termination, and high‑precision fusion splicing for residential and commercial environments. Whether you're extending a fiber backbone, connecting outbuildings, upgrading a business network, or repairing damaged fiber lines, we provide clean, reliable, and standards‑compliant fiber work.\n\nWe handle full fiber runs through attics, walls, conduits, and outdoor pathways using industry‑grade single‑mode or multi‑mode fiber. Every splice is performed with calibrated fusion equipment to ensure ultra‑low loss, maximum signal integrity, and long‑term durability. We terminate fiber into wall plates, patch panels, enclosures, or direct equipment connections depending on your site requirements.\n\nIdeal for homes, offices, warehouses, data rooms, remote buildings, and commercial sites that require high‑speed, low‑latency connectivity. Our service includes testing, verification, and clean labeling for future maintenance. For customers who need a complete solution, we also offer trenching, conduit installation, and full network integration.",
       image: "/images/fiber-splicing.png"
     },
+"faux-wood-wall-panel": {
+  title: "Faux Wood Wall Panel Installation",
+  desc: "Transform your space with our Faux Wood Wall Panel Installation service — a premium decorative upgrade for offices, studios, and commercial interiors. We install precision-cut slat panels with clean vertical alignment, integrated LED lighting, and seamless wall coverage.\n\nIdeal for accent walls, conference rooms, reception areas, and creative workspaces. Our technicians handle surface preparation, panel mounting, outlet adjustments, and optional lighting integration. Choose from acoustic, PVC, or MDF slats in a range of wood tones to match your aesthetic.\n\nBuilt for durability, visual impact, and modern design. Every install is measured, leveled, and finished with professional trim and edge sealing. Let your wall become a statement piece.",
+  image: "/images/faux.png"
+},
 
     "custom-wall-mount-kit": {
       title: "Custom Wall Mount Kit",

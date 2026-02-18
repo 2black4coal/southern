@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   const servicesImages = [
-    "/images/showcase1.jpg",
+    "/images/showcase.png",
     "/images/showcase2.jpg",
     "/images/techs.png",
     "/images/customersupport.jpg",
