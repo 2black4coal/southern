@@ -14,6 +14,14 @@ export default function Services() {
       priceType: "fixed",
       price: 199
     },
+    {
+      id: "ring-security-system",
+      name: "Ring Security Camera System",
+description: "Sales and professional installation of Ring security cameras and monitoring systems for residential homes.",
+      image: "/images/ring-camera.jpg",
+      priceType: "starting",
+      price: 199
+    },
     
 {
   id: "kress-skydome",
@@ -77,14 +85,7 @@ export default function Services() {
   priceType: "starting",
   price: 249
 },
-{
-  id: "faux-wood-wall-panel",
-  name: "Faux Wood Wall Panel Installation",
-  description: "Elegant slat wall installation for modern offices, studios, and commercial interiors.",
-  image: "/images/faux.png",
-  priceType: "starting",
-  price: 299
-},
+
 
 {
   id: "custom-wall-mount-kit",

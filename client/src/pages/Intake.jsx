@@ -60,11 +60,7 @@ export default function Intake() {
       desc: "Our Fiber Fusion Splicing & Installation service delivers professional‑grade fiber routing, termination, and high‑precision fusion splicing for residential and commercial environments. Whether you're extending a fiber backbone, connecting outbuildings, upgrading a business network, or repairing damaged fiber lines, we provide clean, reliable, and standards‑compliant fiber work.\n\nWe handle full fiber runs through attics, walls, conduits, and outdoor pathways using industry‑grade single‑mode or multi‑mode fiber. Every splice is performed with calibrated fusion equipment to ensure ultra‑low loss, maximum signal integrity, and long‑term durability. We terminate fiber into wall plates, patch panels, enclosures, or direct equipment connections depending on your site requirements.\n\nIdeal for homes, offices, warehouses, data rooms, remote buildings, and commercial sites that require high‑speed, low‑latency connectivity. Our service includes testing, verification, and clean labeling for future maintenance. For customers who need a complete solution, we also offer trenching, conduit installation, and full network integration.",
       image: "/images/fiber-splicing.png"
     },
-"faux-wood-wall-panel": {
-  title: "Faux Wood Wall Panel Installation",
-  desc: "Transform your space with our Faux Wood Wall Panel Installation service — a premium decorative upgrade for offices, studios, and commercial interiors. We install precision-cut slat panels with clean vertical alignment, integrated LED lighting, and seamless wall coverage.\n\nIdeal for accent walls, conference rooms, reception areas, and creative workspaces. Our technicians handle surface preparation, panel mounting, outlet adjustments, and optional lighting integration. Choose from acoustic, PVC, or MDF slats in a range of wood tones to match your aesthetic.\n\nBuilt for durability, visual impact, and modern design. Every install is measured, leveled, and finished with professional trim and edge sealing. Let your wall become a statement piece.",
-  image: "/images/faux.png"
-},
+
 
     "custom-wall-mount-kit": {
       title: "Custom Wall Mount Kit",
@@ -76,7 +72,25 @@ export default function Intake() {
       title: "Starlink Gen 3 Full Kit",
       desc: "The Starlink Gen 3 Full Kit delivers the next generation of high‑speed, low‑latency satellite internet for homes, businesses, and remote locations. This upgraded system features an enhanced phased‑array antenna, improved thermal performance, and a more powerful Wi‑Fi router designed for larger spaces and demanding connectivity needs.\n\nThe Gen 3 dish offers stronger signal stability in obstructed environments, faster throughput, and improved reliability in extreme heat and cold. The included advanced router provides extended range, seamless device management, and automatic firmware updates for long‑term performance.\n\nYour order includes the complete Starlink Gen 3 hardware package, delivered directly to your home or job site. For customers who prefer a turnkey experience, we also offer professional installation, including mounting, cable routing, alignment, and system activation.\n\nWhether you're upgrading your current Starlink system or connecting a new property, the Gen 3 Full Kit provides unmatched speed, reliability, and next‑generation satellite performance.",
       image: "/images/gen3-standard.jpg"
-    }
+    },
+    "starlink-pipe-adapter": {
+  title: "Starlink Pipe Adapter Mount",
+  desc: "The Starlink Pipe Adapter Mount is a durable, weather‑resistant mounting solution designed to secure your Starlink dish to existing masts, poles, and vertical structures. Built from reinforced steel with corrosion‑resistant coating, this adapter ensures a stable and vibration‑free installation in both residential and commercial environments.\n\nThe universal clamp system fits a wide range of pipe diameters, making it ideal for rooftops, towers, RV ladders, and custom mounting setups. All required bolts, brackets, and hardware are included for a clean, secure installation.\n\nThis product can be ordered for home delivery or job‑site drop‑off. Professional installation is also available, including structural anchoring, alignment, and weather‑sealed cable routing.\n\nWhether you're upgrading an existing mount or creating a new elevated position for your Starlink dish, the Pipe Adapter Mount delivers strength, compatibility, and long‑term reliability.",
+  image: "/images/pipe-adapter.jpg"
+},
+"starlink-roof-mount": {
+  title: "Starlink Roof Mount Kit",
+  desc: "The Starlink Roof Mount Kit is a heavy‑duty, weather‑rated mounting solution designed for secure installation on shingle, tile, and metal roofs. Built from reinforced steel with a corrosion‑resistant finish, this mount provides a stable platform for your Starlink dish in high‑wind and harsh‑weather environments.\n\nThe kit includes all required brackets, lag bolts, flashing plates, and weather‑sealed hardware to ensure a clean, leak‑proof installation. Its elevated design improves line‑of‑sight performance while keeping the dish safely anchored and properly aligned.\n\nThis product can be delivered directly to your home or job site. Professional installation is also available, including roof penetration sealing, structural anchoring, dish alignment, and cable routing.\n\nWhether you're installing a new Starlink system or upgrading your mounting setup, the Roof Mount Kit delivers strength, stability, and long‑lasting protection.",
+  image: "/images/roof-mount.jpg"
+},
+
+
+"ring-security-system": {
+  title: "Ring Security Camera System",
+  desc: "The Ring Security Camera System provides reliable home monitoring with high-definition video, motion detection, and real-time mobile alerts. Designed for both indoor and outdoor use, Ring cameras help protect your home by allowing you to see, hear, and speak to visitors directly from your smartphone.\n\nThe system includes weather-resistant cameras, motion-activated recording, night vision capability, and secure cloud storage options. Cameras can be installed at key entry points such as front doors, backyards, garages, and driveways to provide full property coverage.\n\nThis product can be purchased directly through our service for convenient delivery to your home or installation location. Professional installation is available and includes camera mounting, Wi-Fi setup, motion zone configuration, mobile app setup, and system testing to ensure optimal performance.\n\nWhether you're installing a new home security system or upgrading your current setup, the Ring Security Camera System offers dependable monitoring, smart alerts, and peace of mind for your property.",
+  image: "/images/ring-camera.jpg"
+}
+
   };
 
   const service = services[serviceId];
@@ -149,5 +163,6 @@ export default function Intake() {
       </form>
 
     </div>
+    
   );
 }

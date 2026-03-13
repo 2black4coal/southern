@@ -65,8 +65,8 @@ export default function Home() {
             <h2>Products</h2>
             <ul>
               <li>Starlink Kits</li>
-              <li>Tesla Battery & Powerwall</li>
-              <li>Cables & Adapters</li>
+              <li>EV Battery & Powerwall</li>
+              <li>Ring & Doorbells</li> <li>CCTV</li>
               <li>Replacement Parts</li>
               <li>Accessories</li>
             </ul>
@@ -154,8 +154,8 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-col">
-            <h4>Southern-Installers</h4>
-            <p>Your trusted source for genuine Telecommunication  equipment, accessories, professional installation and  support.</p>
+            <h4>SkyConnect-Installers</h4>
+            <p>Your trusted source for genuine Telecommunication  equipment accessories professional installation and  support</p>
           </div>
           <div className="footer-col">
             <h4>Store</h4>
@@ -186,7 +186,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-         <p className="footer-wrapup">© 2026 SOUTHERN INSTALLERS. All rights reserved.</p>
+         <p className="footer-wrapup">© 2026 SkyConnect Installers. All rights reserved.</p>
       </footer>
 
     </div>

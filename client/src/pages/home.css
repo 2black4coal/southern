@@ -50,19 +50,47 @@
   padding: 0 1rem;
 }
 
+/* Hero animated text */
 .hero-animated-text {
-  font-family: 'Lucida Handwriting', cursive;
-  font-size: clamp(0.8rem, 2.4vw, 1.8rem);
-  text-shadow: 0 0 10px rgba(255,255,255,0.35);
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 300;
+  color: #fff;
+
+  /* slightly bigger + responsive */
+  font-size: clamp(1.2rem, 3vw, 2.4rem);
+  line-height: 1.3;
+
+  /* visibility on dark/bright backgrounds */
+  -webkit-text-stroke: 1px rgba(0,0,0,0.85);
+  text-shadow:
+    0 0 4px rgba(0,0,0,0.75),
+    0 0 10px rgba(0,0,0,0.55);
+
   margin-top: clamp(4rem, 12vw, 8rem);
+  text-align: center;
 }
+
+/* Hollow stars only */
+.hero-animated-text .star {
+  color: transparent;             /* makes inside hollow */
+  -webkit-text-stroke: 1px #fff;  /* outline white */
+  text-stroke: 1px #fff;          /* fallback for non-webkit browsers */
+}
+
+
 
 .star-icon {
   display: inline-block;
-  font-size: 2.6rem;
-  margin: 0 4px;
-  filter: drop-shadow(0 0 6px white);
+  color: transparent;                 /* no fill */
+  -webkit-text-stroke: 2px #ffffff;   /* white outline */
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  margin: 0 6px;
+
+  text-shadow:
+    0 0 6px rgba(255,255,255,0.6),
+    0 0 14px rgba(255,255,255,0.8);   /* glow around outline */
 }
+
 
 /* -----------------------------------------
    CATEGORIES SECTION

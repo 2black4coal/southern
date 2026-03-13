@@ -110,7 +110,9 @@ body {
 /* FOOTER */
 .footer-wrapup {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 0px;
+  margin-bottom: clamp(80px, 10vh, 140px); /* adds breathing room */
   font-size: clamp(0.7rem, 1.2vw, 0.9rem);
   opacity: 0.6;
 }
+
