@@ -1,0 +1,59 @@
+﻿.services-page {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.back-arrow {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.service-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+}
+
+.service-card-content {
+  padding: 1.25rem;
+}
+
+.service-card-content h2 {
+  margin: 0 0 0.75rem;
+}
+
+.service-card-content p {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+}
+
+.service-price {
+  font-weight: 700;
+}
+
+.footer-wrapup {
+  text-align: center;
+  margin-top: 4rem;
+}

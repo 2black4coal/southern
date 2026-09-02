@@ -1,0 +1,145 @@
+/* -----------------------------------------
+   GLOBAL RESET / BASE
+----------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 300; /* light text globally */
+  font-size: 0.875rem; /* slightly smaller for tiny text */
+  line-height: 1.5;
+  background: radial-gradient(circle at top, #0b1020, #02030a);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* -----------------------------------------
+   LINKS & BUTTONS
+----------------------------------------- */
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+/* -----------------------------------------
+   RESPONSIVE TYPOGRAPHY
+----------------------------------------- */
+h1 {
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  font-weight: 300; /* light */
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+  font-weight: 300; /* light */
+  line-height: 1.2;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 300; /* tiny, not bold */
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* -----------------------------------------
+   PAGE WRAPPER
+----------------------------------------- */
+.page-wrapper {
+  padding: 120px 20px 40px;
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    padding: 140px 40px 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    padding: 160px 60px 80px;
+  }
+}
+
+/* -----------------------------------------
+   REMOVE ALL BULLETS SITEWIDE
+----------------------------------------- */
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------------------------------------
+   FOOTER
+----------------------------------------- */
+.footer-wrapup {
+  text-align: center;
+  font-size: 12px; /* smaller than before */
+  font-weight: 300; /* light */
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.4px;
+
+  /* Breathing space */
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  position: relative;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .footer-wrapup {
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-wrapup {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* -----------------------------------------
+   GLOBAL SECTION SPACING — breathing room
+----------------------------------------- */
+.hero,
+.categories,
+.services,
+.trust,
+.featured-columns,
+.footer {
+  padding-top: clamp(4rem, 10vw, 8rem);
+  padding-bottom: clamp(4rem, 10vw, 8rem);
+}
